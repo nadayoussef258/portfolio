@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+
+    <title>Nada Youssef Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1500">
+                Nada <span>Youssef</span>
+            </div>
+            <div class="desktop-links">
+                <div class="desktop-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="100"><a
+                        href="#home">Home</a></div>
+                <div class="desktop-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"><a
+                        href="#about">About</a></div>
+                <div class="desktop-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400"><a
+                        href="#services">Services</a></div>
+                <div class="desktop-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="300"><a
+                        href="#portfolio">Portfolio</a></div>
+
+                <div class="desktop-link" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><a
+                        href="#contact">Contact</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="toggleDropdown()"></i>
+
+            <div class="dropdown">
+                <div class="links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Service</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#contact">Contact</a>
+                    <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home section -->
+    <section id="home">
+        <div class="main-container">
+            <div class="image" data-aos="zoom-out" data-aos-duration="3000">
+                <img src="images/Me.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1500" data-aos-delay="700">Hey I'm <span>Nada</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1500" data-aos-delay="900">I'm a <span
+                        class="typewriter-text"></span><label for="">|</label></div>
+                <p data-aos="flip-down" data-aos-duration="1500" data-aos-delay="1100"> I specialize in building
+                    responsive, user-friendly websites using the latest technologies like PHP, HTML, CSS, JavaScript,
+                    and WordPress. I have extensive experience in customizing WordPress themes, developing custom
+                    plugins, and creating seamless user experiences. I enjoy turning ideas into functional, beautiful
+                    designs and love collaborating with clients to bring their visions to life. Whether it's a simple
+                    landing page or a complex e-commerce platform, let's build something amazing together!
+
+                </p>
+                <div class="social-links">
+                    <a href="https://www.github.com/nadayoussef258 " data-aos="fade-up" data-aos-duration="1500"
+                        data-aos-delay="1300"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100008952011535&mibextid=ZbWKwL" data-aos="fade-up"
+                        data-aos-duration="1500" data-aos-delay="1400"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/in/nada-youssef258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/NadaYoussef980" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1600"><i
+                            class="fa-brands fa-twitter"></i></a>
+                </div>
+
+                <div class="btn" data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="1800">
+                    <div>
+                        <button> <a href="" class="bttn" data-aos="zoom-in" data-aos-duration="1500"
+                                data-aos-delay="1800">Download CV</a></button>
+                    </div>
+                    <div class="video">
+                        <img class="youtube" src="images/youtube.png" alt="">
+                        <a class="video-link" href="https://youtu.be/zHYVoR4XcCA">Play The Vidoe</a>
+                    </div>
+                    <!-- <button> Hire me</button> -->
+                    <!-- play the video introduction -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section  -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/nada.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading"> <span>About</span> me</h2>
+            <!-- <h3>Front End Developer</h3> -->
+            <h1 class="why-hire">Why do you <span>hire me</span> for your next project?</h1>
+            <p class="developer">As a passionate and dedicated <span>web developer</span>, I bring a blend of hands-on
+                experience and continuous learning to every project. With a background in WordPress development,
+                front-end expertise, and ongoing training in the prestigious 9-months <span>Professional Web Development
+                    & BI-infused program at ITI</span>, I am equipped to handle diverse challenges in web development.
+                My freelancing experience has honed my ability to deliver customized solutions, adapt to client needs,
+                and stay updated with the latest technologies. By choosing me, you're investing in a professional who is
+                committed to delivering quality, innovation, and client satisfaction</p>
+
+            <!-- <a href="#" class="btnn">Read more</a> -->
+        </div>
+
+
+
+
+    </section>
+
+    <div class="container">
+        <div class="qualification">
+            <h2>My Qualifications</h2>
+            <div class="education">
+                <div class="timeline-item">
+                    <span class="year">2024-Present</span>
+                    <h3>Diploma in Professional Development & BI-infused</h3>
+                    <p>Enhance professional skills with a focus on Business Intelligence (BI) and combining advanced
+                        technical expertise with practical applications for real-world challenges</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="year">May 2024-October 2024</span>
+                    <h3>Software Development Engineering Program</h3>
+                    <p>Focused on mastering the fundamentals and advanced concepts of software development to deliver
+                        innovative and efficient software solutions.</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="year">2018-2022</span>
+                    <h3>Bachelor of Science</h3>
+                    <p>Provided me in-depth knowledge and hands-on experience in various scientific disciplines,
+                        preparing me for problem-solving and innovation.</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="skills">
+            <h2>My Skills</h2>
+            <div class="skill">
+                <p>HTML</p>
+                <div class="bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>CSS</p>
+                <div class="bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>JavaScript</p>
+                <div class="bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>WordPress</p>
+                <div class="bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+                <p>PHP</p>
+                <div class="bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill">
+            <p>Node.js</p>
+            <div class="bar"><div class="progress" style="width:60%;"></div></div>
+          </div>
+          <div class="skill">
+            <p>Angular</p>
+            <div class="bar"><div class="progress" style="width:65%;"></div></div>
+          </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="details">
+        <div class="qualifications">
+            <span>Qualifications</span>
+            <div>
+                <h1>My Education</h1>
+                <p>Bachelor of Science</p>
+            </div>
+            <div>
+                <h1>Internships</h1>
+                <p>Professional Development & BI-infused program</p>
+                <p>Information Technology Institute</p>
+
+                <p>Software Development Engineering program</p>
+                <p>Information Technology Institute</p>
+            </div>
+
+        </div>
+
+        <div class="skills">
+            <span>Skills</span>
+        
+        </div>
+    </div> -->
+
+    <!-- Services Section  -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+
+            <div class="services-box">
+                <!-- <i class="fa-solid fa-palette"></i> -->
+                <img src="images/web_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <h3><span>Landing </span>Pages</h3>
+                <p> I specialize in designing and developing high-converting landing pages tailored to your business
+                    needs. My landing pages are optimized for user experience (UX), mobile responsiveness, and SEO to
+                    ensure maximum engagement and results, Landing page designed to capture leads and promote a specific product.</p>
+                <!-- <a href="" class="btnn">Read more</a> -->
+            </div>
+            <div class="services-box">
+                <!-- <i class="fa-brands fa-android"></i> -->
+                 <img src="images/storefront_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <h3><span> E-commerce</span> Development</h3>
+                <p>I create powerful and scalable e-commerce websites designed to provide a seamless shopping experience
+                    for your customers. My approach includes building user-friendly interfaces, secure payment
+                    integrations, and mobile-responsive designs to ensure your store performs flawlessly on all devices.
+                </p>
+                <!-- <a href="" class="btnn">Read more</a> -->
+            </div>
+
+            <div class="services-box">
+                <!-- <i class="fa-brands fa-android"></i> -->
+                 <img src="images/local_convenience_store_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <h3> <span> WordPress</span> websites</h3>
+                <p>I specialize in creating fully customized WordPress websites that align with your brand identity and
+                    business goals. From tailored themes to unique functionalities, I ensure every detail is crafted to
+                    meet your specific needs. My focus is on delivering responsive, SEO-friendly, and
+                    performance-optimized websites that provide a seamless user experience.</p>
+                <!-- <a href="" class="btnn">Read more</a> -->
+            </div>
+
+
+            <div class="services-box">
+                <!-- <i class="fa-brands fa-android"></i> -->
+                 <img src="images/tile_medium_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <h3><span> Frontend </span> Development</h3>
+                <p>Bring your vision to life with interactive and user-friendly interfaces. I specialize in crafting
+                    modern, responsive designs using HTML, CSS, JavaScript, and frameworks like React.js or Angular to
+                    captivate your audience on any device.</p>
+                <!-- <a href="" class="btnn">Read more</a> -->
+            </div>
+
+            <div class="services-box">
+                <!-- <i class="fa-brands fa-android"></i> -->
+                 <img src="images/reset_wrench_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <h3><span> Backend </span> Development</h3>
+                <p>I build robust and scalable backend systems that power your applications. From database design to
+                    creating secure APIs, my backend solutions ensure seamless functionality and high performance,
+                    tailored to your business processes.</p>
+                <!-- <a href="" class="btnn">Read more</a> -->
+            </div>
+
+            <div class="services-box">
+                <!-- <i class="fa-brands fa-android"></i> -->
+                 <img src="images/construction_24dp_F3F3F3_FILL0_wght400_GRAD0_opsz24.png" alt="">
+                <h3> Maintenance & <span> Bug Fixing </span> </h3>
+                <p>
+                    Keep your website running smoothly with my maintenance and support services. From fixing bugs to
+                    regular updates, I ensure your site is secure, optimized, and up-to-date to deliver a flawless user
+                    experience.</p>
+                <!-- <a href="" class="btnn">Read more</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section  -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+
+
+            <div class="portfolio-box">
+                <img src="images/landing.png" alt="">
+                <div class="portfolio-layer">
+                    <h4> Landing Pages</h4>
+                    <p>A responsive and visually appealing landing page designed to capture leads and promote a specific
+                        product or service. The page is optimized for user engagement, fast loading, and mobile
+                        compatibility to ensure maximum conversions.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/gameStore.png" alt="">
+                <div class="portfolio-layer">
+                    <h4> E-commerce </h4>
+                    <p>Developed a fully functional e-commerce platform with secure payment gateways, user-friendly
+                        navigation, and a seamless shopping experience. The site is optimized for performance,
+                        scalability, and tailored to the client’s brand.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/woocommerce.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4> Wordpress Woocommrece</h4>
+                    <p>Created a custom WooCommerce store with advanced features, including product filtering, secure
+                        checkout, and personalized design. Focused on providing an intuitive shopping experience and
+                        easy management for the client.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/sth.png" alt="">
+                <div class="portfolio-layer">
+                    <h4> Customize PHP Plugins</h4>
+                    <p>Developed custom PHP plugins to extend website functionality, tailored to meet specific client
+                        requirements. These plugins were built for optimal performance, compatibility, and ease of use.
+                    </p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/مشاكل-ووردبريس-الشائعة.webp" alt="">
+                <div class="portfolio-layer">
+                    <h4> Maintaince Wordpress Websites</h4>
+                    <p>Provided ongoing maintenance for WordPress websites, including bug fixes, plugin updates,
+                        performance optimization, and security enhancements. Ensured the sites run smoothly and remain
+                        up-to-date.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+
+            <div class="portfolio-box">
+                <img src="images/portfolio.png" alt="">
+                <div class="portfolio-layer">
+                    <h4> Portfolio</h4>
+                    <p>Designed and developed a personal portfolio website to showcase skills, projects, and
+                        achievements. The site features a clean design, responsive layout, and smooth navigation to
+                        highlight professionalism.</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section  -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input class="change" type="text" placeholder="Full Name" name="name" onkeypress="ChangeColor()">
+                <input class="change" type="email" placeholder="Email Address" name="email" onkeypress="ChangeColor()">
+
+            </div>
+            <div class="input-box">
+                <input class="change" type="text" placeholder="Mobile Number" name="number" onkeypress="ChangeColor()">
+                <input class="change" type ="text" placeholder="Email Subject" name="Subject" onkeypress="ChangeColor()">
+
+            </div>
+            <textarea class="change" name="" id="" cols="30" rows="10" placeholder="Your Message" onkeypress="ChangeColor()"></textarea>
+            <input type="submit" value="send Message" class="btnn">
+
+
+
+        </form>
+
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p> Copyright &copy; 2024 by @nadayoussef | All Rights Reserved.</p>
+            <p>nadayoussef0258@gmail.com</p>
+        </div>
+
+
+    </footer>
+    <div class="footer-iconTop">
+        <a href="#home"><i class="fa-solid fa-angle-up"></i> </a>
+    </div>
+
+<script>
+    function    ChangeColor(){
+        var inputs = document.getElementsByClassName("change"); 
+        for(var i =0; i< inputs.length ; i++){
+            inputs[i].style.color='white';
+
+        }
+
+    }
+    
+</script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="index.js"></script>
+</body>
+
+</html>
